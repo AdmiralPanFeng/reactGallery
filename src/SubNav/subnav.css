@@ -1,0 +1,23 @@
+.subNav{
+    float: left;
+    width: 14%;
+    background: #27303f;
+    padding-top: 30px;
+    height: 600px;
+}
+.tab_nav{
+    width: 50%;
+}
+.subNav_a{
+    color: white;
+    display: block;
+    height: 37px;
+    line-height: 37px;
+    font-size: 12px;
+}
+.subNav_a:hover{
+    background: #26384c;
+}
+.subNav_li{
+    text-align: center;
+}

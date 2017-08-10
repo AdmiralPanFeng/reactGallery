@@ -1,0 +1,51 @@
+
+*{
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+ul{
+    list-style: none;
+    margin:0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+:global(#root){
+    width: 100%;
+    height: 100%;
+}
+.container{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+    background-color: #f1f1f1;
+}
+.sidebar{
+    width: 15%;
+    position: absolute;
+    top: 64px;
+    left: 0;
+    bottom: 0;
+    z-index: 10;
+    background: white;
+}
+.content{
+    width: 85%;
+    height: 700px;
+    position: absolute;
+    left: 15%;
+    padding: 10px 10px 0 10px;
+    top: 64px;
+    overflow-y: auto;
+}
+.link--active{
+    display: block;
+    background: #9C27B0;
+    color: red;
+}

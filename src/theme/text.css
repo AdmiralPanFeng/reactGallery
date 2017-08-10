@@ -1,0 +1,23 @@
+:global(.text--primary){
+    color: #0095e2;
+    padding:0 13px;
+}
+:global(.text--red){
+    color: #ff0f0f;
+    padding:0 13px;
+}
+:global(.text--default){
+     color: #999999;
+ }
+:global(.text--block){
+    display: block;
+    padding:0 20px;
+    font-size: 14px;
+    color: #666666;
+}
+:global(.text--left){
+    text-align: left;
+}
+:global(.text--right){
+    text-align: right;
+}

@@ -1,0 +1,21 @@
+:global(.dialogTitle){
+    width: 100%;
+    position: absolute;
+    font-family: '微软雅黑';
+    font-weight: bold;
+    top: 5%;
+    font-size: 16px;
+ }
+:global(.dialogContent){
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    top: 35%;
+    font-size: 14px;
+}
+:global(.dialogAction){
+    text-align: center;
+    position: absolute;
+    width: 100%;
+    top: 70%;
+}
