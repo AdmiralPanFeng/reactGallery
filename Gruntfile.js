@@ -1,6 +1,3 @@
-/**
- * Created by liheng at 2017.8.1
- */
 module.exports = function (grunt) {
     var config = {
         sftp: {
